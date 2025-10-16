@@ -36,13 +36,6 @@ npm run start
 - Search by team or member
 - Multi-select + bulk delete
 
-## Submission
-Zip the project without build artifacts:
-```
-rm -rf .next node_modules
-zip -r team-management-app.zip . -x "node_modules/*" ".next/*"
-```
-
 ## Notes
 - API routes: `app/api/teams` and nested routes handle CRUD, approvals, reorder.
 - Uses React Query provider via `app/layout.tsx` and `app/providers.tsx`.
